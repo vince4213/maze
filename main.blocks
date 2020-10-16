@@ -1,4 +1,21 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="_EYeH#QTMD.]8$W=amk5">Player</variable><variable type="KIND_SpriteKind" id="[EcoK5/*:!0%ogg1=k(J">Projectile</variable><variable type="KIND_SpriteKind" id="jwVSJ,)3qw[.P78@#7Us">Food</variable><variable type="KIND_SpriteKind" id="da{?tqN9X7TvYGCYF`(v">Enemy</variable><variable id="W0_,_Cgxr_yL?yTeXHgR">mySprite</variable><variable id="T5C$kfOP!dr9IDkZM1I;">mySprite2</variable><variable id="EVJ-^3Ee,s-L$;cGv=|P">myEnemy</variable></variables><block type="pxt-on-start" id="*u,aoW5;yeTFyZdG4}z_" x="50" y="-90"><statement name="HANDLER"><block type="variables_set" id="j/vy5ryVt7jT7#W3ik)+"><field name="VAR" id="W0_,_Cgxr_yL?yTeXHgR">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="Pr0*$1/K=Q|g2f^|ux0P"><value name="img"><shadow type="screen_image_picker" id=";;/M^*kzN!+IS|tm1BkN"><field name="img">img`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="!%fm{1.VPO3J-!pU%8![">Player</variable><variable type="KIND_SpriteKind" id=";!o(@svP3j,wob*{a,YH">Projectile</variable><variable type="KIND_SpriteKind" id="kB+m!j,1n4w9;8t4R*C2">Food</variable><variable type="KIND_SpriteKind" id="jTaH6?d)Qr;C{/%L%;q9">Enemy</variable><variable id="?I9tJcnu7CE2z1?mc/H-">mySprite</variable><variable id="z+,hEC1TS$}^MIf]Y(q9">mySprite2</variable><variable id="kZ/A+Jy(_J_5F:fj*:#N">mySprite3</variable><variable id="8Eu$-7z2uU@#8%?!*J#w">projectile</variable></variables><block type="keyonevent" id="k)`0VSikd+u.DU{m,XPf" x="671" y="20"><field name="button">controller.left</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetimage" id="J+,:SoEt~]_9bl^WcKKL"><value name="sprite"><block type="variables_get" id="{cyqBNiwc`z$wE6nhoiw"><field name="VAR" id="?I9tJcnu7CE2z1?mc/H-">mySprite</field></block></value><value name="img"><shadow type="screen_image_picker" id="!8)Ig9XR7:e6G;qnIZ:k"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . f f f f f f . . . . . . 
+. . . f 2 f e e e e f f . . . . 
+. . f 2 2 2 f e e e e f f . . . 
+. . f e e e e f f e e e f . . . 
+. f e 2 2 2 2 e e f f f f . . . 
+. f 2 e f f f f 2 2 2 e f . . . 
+. f f f e e e f f f f f f f . . 
+. f e e 4 4 f b e 4 4 e f f . . 
+. . f e d d f 1 4 d 4 e e f . . 
+. . . f d d d e e e e e f . . . 
+. . . f e 4 e d d 4 f . . . . . 
+. . . f 2 2 e d d e f . . . . . 
+. . f f 5 5 f e e f f f . . . . 
+. . f f f f f f f f f f . . . . 
+. . . f f f . . . f f . . . . . 
+`</field></shadow></value></block></statement></block><block type="pxt-on-start" id="8`,UM$Hjm,5~0D6@SMBM" x="107" y="146"><statement name="HANDLER"><block type="variables_set" id="0}V?T8$:VuvjUO=nZtoW"><field name="VAR" id="?I9tJcnu7CE2z1?mc/H-">mySprite</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="eWlAiZg_04~Z5zX[*31y"><value name="img"><shadow type="screen_image_picker" id="cFh6=F`9}=sNsXUB{^nj"><field name="img">img`
 . . . . . . f f f f . . . . . . 
 . . . . f f f 2 2 f f f . . . . 
 . . . f f f 2 2 2 2 f f f . . . 
@@ -15,7 +32,7 @@
 . . 4 4 f 4 4 5 5 4 4 f 4 4 . . 
 . . . . . f f f f f f . . . . . 
 . . . . . f f . . f f . . . . . 
-`</field></shadow></value><value name="kind"><shadow type="spritekind" id="I#6j;^S#qQ/Y.^vyO2co"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="X#CMhxsDo$AO[jm]:Yu!"><field name="VAR" id="T5C$kfOP!dr9IDkZM1I;">mySprite2</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="Ueci]}mQtlD%t{GpAwc]"><value name="img"><shadow type="screen_image_picker" id="d|,IEo{0:?f`rym{2G4d"><field name="img">img`
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="ltl_oOdwZRYhjg.%L$XM"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="kvf`$Y!H?_Z]b_WSbc1J"><field name="VAR" id="z+,hEC1TS$}^MIf]Y(q9">mySprite2</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="9^lC3TIYEl?Nl1j4v*|("><value name="img"><shadow type="screen_image_picker" id="x@.cwT`uuOw{)PE{Xv#E"><field name="img">img`
 ........................
 ........................
 ........................
@@ -40,40 +57,7 @@
 ........................
 ........................
 ........................
-`</field></shadow></value><value name="kind"><shadow type="spritekind" id=")oRON.hFCW,(3ajlDqZz"><field name="MEMBER">Enemy</field></shadow></value></block></value><next><block type="game_control_sprite" id=";}Dr$FT6+$)z94=..3(M"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="ha{[V[o[aLO5jT3@P~rr"><field name="VAR" id="W0_,_Cgxr_yL?yTeXHgR">mySprite</field></block></value><next><block type="tilemap_editor" id="uvk5(rdd-GT0(!/[HCNW"><field name="tilemap">tiles.createTilemap(hex`2000200001010101010104040404040101010101010101010101010101010101010101010101010101010202020202020102020202020202020202020202020202020101010101010101010202020202010202020202020202020202020202020202010101010101010101010202020201020202020202020202020202020202020201010101010101010101010202020101010101010101010101010101010202020101010101010101010102020202020202020202020202010202020201010202010101010101010101010202020201010101010202020201020202020101020201010102020202020201020202010102020202020202020102020202010202020101010202020202020102020201020202020202020202020202020201020202010101020202020202010101010202020102020202020202020202020102020201010102020202020202020202020202010202020202020202020202010102020201010101010101010202020202020201020202020201010202020202020102020101010202020202020202020202010102020202010101020102020202010202010101010101010101010101010101020202020101010102010202020201020201010202020201020202020202020202020201010101020201020202020102020101020202020102020202020202020202010101010102020102020202010202010102020202010102020202020202010102010101010202020102020201020201010202020201010202020202020101020202020201020202010202020102020101020202020202020202010101010202020202020102020201020202010202010102020202020201010101020202020202020202010101010102020201020201010202020201010102020202020202020202020201020202020202020102020101010101020102020202020202020202020201010102020202020202010202010102020202010202020201010101010101010102020202020202020201020201010202020201010101020202020202020202020202020202020202020102020101020202020202020101020202020202020202020202020201010202010202010102020202020202020102020202020202020202020202020201010101020201010101010101010202010202020202020202020202020202020202020202020101010101010101020201010101010101010101010101010101010102020202010101010101010102020202020102020202020202020102020202020202020201010101010101020202020202010202020202020202010202020202020202020101010101010102020202020202020202010101010101020202020202020203010101010101010101010101010101010101010101010101010101010101010101`, img`
-.....2.....22222222222222222222.
-.....2......2.................2.
-......2.....2.................2.
-.......2....2.................2.
-........2...222222222222222...2.
-.......2.............2....22..2.
-.2222222....22222....2....22..2.
-2......2...22........2....2...2.
-2......2...2..............2...2.
-2......2222...2...........2...2.
-2.............2...........22...2
-.222222.......2.....22......2..2
-.2...........22....2.2.2....2..2
-.2222222222222....2..2.2....2..2
-2....2...........2..2..2....2..2
-2....2..........2...2..2....2..2
-2....22.......22.2222...2...2..2
-2....22......22.....2...2...2..2
-2.........2222......2...2...2..2
-2......2222.........22222...2..2
-2....222............2.......2..2
-.222.2............222.......2..2
-2....2....222222222.........2..2
-2....2222...................2..2
-2.......22..............22..2..2
-2........2...............2222..2
-.222222..2.....................2
-......2..222222222222222222....2
-.....22.....2........2.........2
-.....2......2........2.........2
-.....2..........222222.........2
-......2222222222......2222222222
-`, [myTiles.transparency16,sprites.builtin.brick,sprites.castle.tileGrass1,sprites.dungeon.doorLockedNorth,sprites.dungeon.doorOpenNorth], TileScale.Sixteen)</field><next><block type="mapplaceonrandomtile" id="30)Q|J|[BN,]4ac|.I/A"><value name="sprite"><block type="variables_get" id="=Jy,9UC$LW636`DlFR-U"><field name="VAR" id="W0_,_Cgxr_yL?yTeXHgR">mySprite</field></block></value><value name="tile"><shadow type="tileset_tile_picker" id="dQp`=FYE0]{04)LqHjr|"><field name="tile">sprites.dungeon.doorLockedNorth</field></shadow></value><next><block type="mapplaceonrandomtile" id="t?M^nf{1u2}uKLE_GC(|"><value name="sprite"><block type="variables_get" id="pa):{0:|$J8nUXj=a7xm"><field name="VAR" id="T5C$kfOP!dr9IDkZM1I;">mySprite2</field></block></value><value name="tile"><shadow type="tileset_tile_picker" id="9O::i)n)p-6~*L,H0D,^"><field name="tile">sprites.dungeon.chestOpen</field></shadow></value><next><block type="camerafollow" id="s?I=lg;{|xi2_].*AoBs"><value name="sprite"><block type="variables_get" id="JX{KD9cFUHOK:qy1_yJA"><field name="VAR" id="W0_,_Cgxr_yL?yTeXHgR">mySprite</field></block></value><next><block type="hudSetLife" id="3cg2o}a%.,7ziup/{3;d"><value name="value"><shadow type="math_number" id="F)p5DY;.946wpcw)$gf^"><field name="NUM">3</field></shadow></value><next><block type="spriteFollowOtherSprite" id="z..C:Vj:)qbFMb9MU4}X"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="_S755k?5F8GDF;2oBbKz"><field name="VAR" id="T5C$kfOP!dr9IDkZM1I;">mySprite2</field></block></value><value name="target"><block type="variables_get" id="okJxJM)QWiWA3iP}%|2c"><field name="VAR" id="W0_,_Cgxr_yL?yTeXHgR">mySprite</field></block></value><value name="speed"><shadow type="math_number" id="/DeW5}82X,luNZVrrPK."><field name="NUM">50</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="spriteshittile" id="1iK4Bi`6):?F29iEwk1S" x="509" y="1"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom" id=";!n$/F?[a`@1bT=CXo#|"><mutation typename="Sprite"/><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind" id="(+v=}W4Ul+H5JNgKDU1J"><field name="MEMBER">Player</field></shadow></value><value name="tile"><shadow type="tileset_tile_picker" id="O=zL$Afc%N-4Z~K[OpTJ"><field name="tile">sprites.dungeon.doorOpenNorth</field></shadow></value><value name="HANDLER_DRAG_PARAM_location"><shadow type="argument_reporter_custom" id="cKEPDLAR`!GzbL-VOxJ{"><mutation typename="tiles.Location"/><field name="VALUE">location</field></shadow></value><statement name="HANDLER"><block type="gameOver" id="2#J./![woX?=o1G+{{BH"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="win"><shadow type="toggleWinLose" id="Fg:aH4FviI2%/rP5Qxl["><field name="win">true</field></shadow></value></block></statement></block><block type="spriteshittile" id="M%wo573(pjJ=9Hd@%rw#" x="470" y="150"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom" id="Ru;3=imC6{X.65FON0,{"><mutation typename="Sprite"/><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind" id="$}6x6t0CMyM+erTE~A_S"><field name="MEMBER">Enemy</field></shadow></value><value name="tile"><shadow type="tileset_tile_picker" id="QJPA{%Uq6C?#`jjFG_@$"><field name="tile">sprites.builtin.brick</field></shadow></value><value name="HANDLER_DRAG_PARAM_location"><shadow type="argument_reporter_custom" id="-`!3VvB*t+)uEwx8UnpK"><mutation typename="tiles.Location"/><field name="VALUE">location</field></shadow></value><statement name="HANDLER"><block type="Sprite_blockCombine_change" id="qxDEiWRWW,vA!4qph53J"><field name="property">Sprite.x@set</field><value name="mySprite"><block type="variables_get" id="iOqn)!U^=pos@I)?nKb5"><field name="VAR" id="W0_,_Cgxr_yL?yTeXHgR">mySprite</field></block></value><value name="value"><shadow type="math_number" id="eb90EY|+OvOq|`6bn:!I"><field name="NUM">0</field></shadow></value></block></statement></block><block type="keyonevent" id="#J84;3QSB8W{lk%{,FZe" x="630" y="430"><field name="button">controller.up</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetimage" id="Juwfv$HE%3wFB3Kh!,,:"><value name="sprite"><block type="variables_get" id=";Z|,fivj%iN+XmuP^I1D"><field name="VAR" id="W0_,_Cgxr_yL?yTeXHgR">mySprite</field></block></value><value name="img"><shadow type="screen_image_picker" id="eks?MME%Mr2L5bPY1NuQ"><field name="img">img`
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="0.{BViw|C@IzBuvfHQ(6"><field name="MEMBER">Enemy</field></shadow></value></block></value><next><block type="game_control_sprite" id="bDr?Jh%$)?j,oPVPc=+v"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><shadow type="variables_get" id="|:Ij2VXozUbyZ|$|nD2h"><field name="VAR" id="?I9tJcnu7CE2z1?mc/H-">mySprite</field></shadow></value><next><block type="tilemap_editor" id="#dRb~%:1kJEEAWK2fgfs"><field name="tilemap">tilemap`level_0`</field><next><block type="mapplaceonrandomtile" id="70K|Vz}-vXv8M3g.//(K"><value name="sprite"><shadow type="variables_get" id="vi@Gk93x%7$bKFu8]$H+"><field name="VAR" id="?I9tJcnu7CE2z1?mc/H-">mySprite</field></shadow></value><value name="tile"><shadow type="tileset_tile_picker" id="sXslvjn};:0g*v6S}DMr"><field name="tile">sprites.dungeon.doorLockedNorth</field></shadow></value><next><block type="mapplaceonrandomtile" id="}IK_~Z=[//1mZuH{]k.:"><value name="sprite"><shadow type="variables_get" id="b7=8el;6B+iT*YxCHp3J"><field name="VAR" id="z+,hEC1TS$}^MIf]Y(q9">mySprite2</field></shadow></value><value name="tile"><shadow type="tileset_tile_picker" id="_!:Q]zwJlw=b)^^X^1#6"><field name="tile">sprites.dungeon.chestOpen</field></shadow></value><next><block type="camerafollow" id="Z;w^v-G@-fE$]I(1-z|S"><value name="sprite"><shadow type="variables_get" id="BZ`A5E8k3*0#$Ew;Tcl_"><field name="VAR" id="?I9tJcnu7CE2z1?mc/H-">mySprite</field></shadow></value><next><block type="hudSetLife" id="-6|Y0Ikaz#hZOd*AyY]P"><value name="value"><shadow type="math_number" id="IA3RJ8lohM8MXr)oL+qF"><field name="NUM">3</field></shadow></value><next><block type="spriteFollowOtherSprite" id="l`hmu|%raOV:Bu0O~YW?"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id=",~~Zw^)J3`b47:F*p)`a"><field name="VAR" id="z+,hEC1TS$}^MIf]Y(q9">mySprite2</field></block></value><value name="target"><shadow type="variables_get" id="cA|0$/q=,Dh,,}(=HM_Q"><field name="VAR" id="?I9tJcnu7CE2z1?mc/H-">mySprite</field></shadow></value><value name="speed"><shadow type="math_number" id="wyNZ$V*1DYk0??ky;[P6"><field name="NUM">50</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="spriteshittile" id="TBA/N{D8CzRL7U5W~8io" x="810" y="230"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom" id="gw]J(RC!,P:D-H/;I?~p"><mutation typename="Sprite"/><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind" id="mMvY2Tmhm_E?`x=ym7T1"><field name="MEMBER">Player</field></shadow></value><value name="tile"><shadow type="tileset_tile_picker" id="+O:1f)3@Pp*[T5LMX{e="><field name="tile">sprites.dungeon.doorOpenNorth</field></shadow></value><value name="HANDLER_DRAG_PARAM_location"><shadow type="argument_reporter_custom" id="8/r$cCUBAbYUSRmYn=L@"><mutation typename="tiles.Location"/><field name="VALUE">location</field></shadow></value><statement name="HANDLER"><block type="gameOver" id=";m[+o}AhiERWn2loF?(,"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="win"><shadow type="toggleWinLose" id="j3Md7tSMEyXBPI|V9nW^"><field name="win">true</field></shadow></value></block></statement></block><block type="keyonevent" id="H#Mu:j,(Q[@c4fVS?uJ+" x="650" y="650"><field name="button">controller.up</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetimage" id="*n.2hJ2|PMU(I%QULd[j"><value name="sprite"><block type="variables_get" id="6?R(xvj1;O!Z`2u[b=Ya"><field name="VAR" id="?I9tJcnu7CE2z1?mc/H-">mySprite</field></block></value><value name="img"><shadow type="screen_image_picker" id="JSq2S2^te=XFZZ(0dw55"><field name="img">img`
 . . . . . . f f f f . . . . . . 
 . . . . f f e e e e f f . . . . 
 . . . f e e e f f e e e f . . . 
@@ -90,41 +74,7 @@
 . . 4 4 f 4 4 4 4 4 4 f 4 4 . . 
 . . . . . f f f f f f . . . . . 
 . . . . . f f . . f f . . . . . 
-`</field></shadow></value></block></statement></block><block type="keyonevent" id="5lv41IS(!v7=KeXtPO,a" x="29" y="601"><field name="button">controller.left</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetimage" id=",GXa@ner!zQemA!#_6)?"><value name="sprite"><block type="variables_get" id="-~-rfpTpc^m8w]Rp#uL/"><field name="VAR" id="W0_,_Cgxr_yL?yTeXHgR">mySprite</field></block></value><value name="img"><shadow type="screen_image_picker" id="],..|Vf1*lL,e(;$^mVE"><field name="img">img`
-. . . . . . . . . . . . . . . . 
-. . . . f f f f f f . . . . . . 
-. . . f 2 f e e e e f f . . . . 
-. . f 2 2 2 f e e e e f f . . . 
-. . f e e e e f f e e e f . . . 
-. f e 2 2 2 2 e e f f f f . . . 
-. f 2 e f f f f 2 2 2 e f . . . 
-. f f f e e e f f f f f f f . . 
-. f e e 4 4 f b e 4 4 e f f . . 
-. . f e d d f 1 4 d 4 e e f . . 
-. . . f d d d e e e e e f . . . 
-. . . f e 4 e d d 4 f . . . . . 
-. . . f 2 2 e d d e f . . . . . 
-. . f f 5 5 f e e f f f . . . . 
-. . f f f f f f f f f f . . . . 
-. . . f f f . . . f f . . . . . 
-`</field></shadow></value></block></statement></block><block type="keyonevent" id="h%`%sw?MJ)}7R=vF,r#|" x="429" y="601"><field name="button">controller.down</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetimage" id="*l8_s67]t)2(NJ4L~-]!"><value name="sprite"><block type="variables_get" id="XeXP|nuW9!g_^D8K8nJ0"><field name="VAR" id="W0_,_Cgxr_yL?yTeXHgR">mySprite</field></block></value><value name="img"><shadow type="screen_image_picker"><field name="img">img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`</field></shadow><block type="screen_image_picker" id="b4o?.djg:U-8i)cS|Zp3"><field name="img">img`
+`</field></shadow></value></block></statement></block><block type="keyonevent" id="8-$V6Xc?,}f]OBiaYP$b" x="1097" y="659"><field name="button">controller.down</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetimage" id=",V6l|JPQ[H6s.!:Olq6!"><value name="sprite"><block type="variables_get" id="5j)(pT0AD3$.@P^|0RpQ"><field name="VAR" id="?I9tJcnu7CE2z1?mc/H-">mySprite</field></block></value><value name="img"><shadow type="screen_image_picker" id="?|wHV$7?p0`Jm3GER}~8"><field name="img">img`
 . . . . . . f f f f . . . . . . 
 . . . . f f f 2 2 f f f . . . . 
 . . . f f f 2 2 2 2 f f f . . . 
@@ -141,24 +91,7 @@
 . . 4 4 f 4 4 5 5 4 4 f 4 4 . . 
 . . . . . f f f f f f . . . . . 
 . . . . . f f . . f f . . . . . 
-`</field></block></value></block></statement></block><block type="keyonevent" id="]Qxd/J0B~*tvAqbT=T1." x="850" y="590"><field name="button">controller.right</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetimage" id="p.D::+vs@Pg2OaST]Nuu"><value name="sprite"><block type="variables_get" id="cNX:9OL=BL4T|^dmzVmw"><field name="VAR" id="W0_,_Cgxr_yL?yTeXHgR">mySprite</field></block></value><value name="img"><shadow type="screen_image_picker"><field name="img">img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`</field></shadow><block type="screen_image_picker" id="XtjKZg8H%?OP5TYJLc_8"><field name="img">img`
+`</field></shadow></value></block></statement></block><block type="keyonevent" id="GKmg!,ugGVUFh#9dEEHP" x="1541" y="659"><field name="button">controller.right</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetimage" id="4^FY2L-Dhe+|$6D25Pt%"><value name="sprite"><block type="variables_get" id="9f6w|-r|H^8uB:gqFUVQ"><field name="VAR" id="?I9tJcnu7CE2z1?mc/H-">mySprite</field></block></value><value name="img"><shadow type="screen_image_picker" id="YmW;1%NR=C8!ALmyJx=l"><field name="img">img`
 . . . . . . . . . . . . . . . . 
 . . . . . . f f f f f f . . . . 
 . . . . f f e e e e f 2 f . . . 
@@ -175,4 +108,21 @@
 . . . . f f f e e f 5 5 f f . . 
 . . . . f f f f f f f f f f . . 
 . . . . . f f . . . f f f . . . 
-`</field></block></value></block></statement></block><block type="spritesoverlap" id="=KFSMKw]a.0H=/h@hMhz" x="69" y="781"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom" id="E$S0|MGIDbM%qZN$;OMs"><mutation typename="Sprite"/><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind" id="oo*IJi44M.}YSy[njyV)"><field name="MEMBER">Player</field></shadow></value><value name="HANDLER_DRAG_PARAM_otherSprite"><shadow type="argument_reporter_custom" id="fUo1Z=K)dJs$%S?XlLLX"><mutation typename="Sprite"/><field name="VALUE">otherSprite</field></shadow></value><value name="otherKind"><shadow type="spritekind" id="ROZp6ohNb}q~.0sX%Y(("><field name="MEMBER">Enemy</field></shadow></value><statement name="HANDLER"><block type="hudChangeLifeBy" id="4O%C`s,NVg3?o6xg%WZ~"><value name="value"><shadow type="math_number" id=")p4;}7hrlGhF2Ak*@9Xp"><field name="NUM">-1</field></shadow></value><next><block type="camerashake" id="xF%e`C~C~I)$tFI?ttIM"><value name="amplitude"><shadow type="math_number_minmax" id="o2]rz9)QQ.5GN1DNwsMG"><mutation min="1" max="8" label="Amplitude" precision="0"/><field name="SLIDER">6</field></shadow></value><value name="duration"><shadow type="timePicker" id="8=FR~+.uhNy#r!|/gv:2"><field name="ms">200</field></shadow></value><next><block type="device_pause" id="/]UG*vXM48CltMLEMvjw"><value name="pause"><shadow type="timePicker" id="6_.+L|$13e9lVn(Q_f+~"><field name="ms">800</field></shadow></value></block></next></block></next></block></statement></block></xml>
+`</field></shadow></value></block></statement></block><block type="spriteshitwall" id="25Yue-;K;yTczG,$/$eh" x="90" y="770"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom" id="A,Wz~|]nzn6CuX8jGMfD"><mutation typename="Sprite"/><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind" id="%4ffp50$sYXQcOP3!/sN"><field name="MEMBER">Enemy</field></shadow></value><value name="HANDLER_DRAG_PARAM_location"><shadow type="argument_reporter_custom" id="V~?H6pz#Vc:-}||Q9*xz"><mutation typename="tiles.Location"/><field name="VALUE">location</field></shadow></value><statement name="HANDLER"><block type="device_pause" id="=zb7b1lu:V%wEz)PTG$7"><value name="pause"><shadow type="timePicker" id="3@$NG`/(d$_N%8`B~ffU"><field name="ms">1000</field></shadow></value><next><block type="mapplaceonrandomtile" id="t3-M^Gg.^:;iYB]$?}1Y"><value name="sprite"><block type="variables_get" id="7k:NkjT4qr-%d+U*{pe~"><field name="VAR" id="z+,hEC1TS$}^MIf]Y(q9">mySprite2</field></block></value><value name="tile"><shadow type="tileset_tile_picker" id="s_ZJD/q,#L-Cf[Z4mHnY"><field name="tile">sprites.castle.tilePath5</field></shadow></value></block></next></block></statement></block><block type="spritehasobstacle" id="#/%oQa7B25.P~t%dPO:2" disabled="true" x="1230" y="810"><field name="direction">CollisionDirection.Top</field><value name="sprite"><block type="variables_get" id="pg!+N(Bw27;Mz=NlUAp3" disabled="true"><field name="VAR" id="?I9tJcnu7CE2z1?mc/H-">mySprite</field></block></value></block><block type="forever" id="bg(#/-3hlTy9Ec?)Q1W=" x="1010" y="830"><statement name="HANDLER"><block type="device_pause" id="f*O0j2@8#^^*Iz(r(uka"><value name="pause"><shadow type="timePicker" id="}l5=R@uAd_.`$*tI*w$8"><field name="ms">2000</field></shadow></value><next><block type="variables_set" id="tp:|zoh.%CYZCKb{@q:,"><field name="VAR" id="8Eu$-7z2uU@#8%?!*J#w">projectile</field><value name="VALUE"><shadow type="math_number" id="ysJ;v%6s+WbibcT]v.L3"><field name="NUM">0</field></shadow><block type="spritescreateprojectilefromsprite" id=":Nws50_q%0aEbMbl6a6Q"><value name="img"><shadow type="screen_image_picker" id="kdX6cBj_/#:OGz19m1+c"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . 6 6 6 6 . . . . . . 
+. . . . 6 6 6 5 5 6 6 6 . . . . 
+. . . 7 7 7 7 6 6 6 6 6 6 . . . 
+. . 6 7 7 7 7 8 8 8 1 1 6 6 . . 
+. . 7 7 7 7 7 8 8 8 1 1 5 6 . . 
+. 6 7 7 7 7 8 8 8 8 8 5 5 6 6 . 
+. 6 7 7 7 8 8 8 6 6 6 6 5 6 6 . 
+. 6 6 7 7 8 8 6 6 6 6 6 6 6 6 . 
+. 6 8 7 7 8 8 6 6 6 6 6 6 6 6 . 
+. . 6 8 7 7 8 6 6 6 6 6 8 6 . . 
+. . 6 8 8 7 8 8 6 6 6 8 6 6 . . 
+. . . 6 8 8 8 8 8 8 8 8 6 . . . 
+. . . . 6 6 8 8 8 8 6 6 . . . . 
+. . . . . . 6 6 6 6 . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="sprite"><block type="variables_get" id="0Ii`^_]](rBk%-l2r_$e"><field name="VAR" id="z+,hEC1TS$}^MIf]Y(q9">mySprite2</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="_)Rc(gL6,;S9$$SdJkA$"><field name="speed">100</field></shadow><block type="device_random" id="HQG/=|:Ll6u_hMoa?e[r"><value name="min"><shadow type="math_number" id="?{n}RJA/;ZBUPIJX36uJ"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="IR@ijZDJ_k9l18//eTd`"><field name="NUM">100</field></shadow></value></block></value><value name="vy"><shadow type="spriteSpeedPicker" id="IcWI[{v[Ch,[]6+yARMj"><field name="speed">100</field></shadow><block type="device_random" id=":~ZPTpFL6a=@]Z!{xf`1"><value name="min"><shadow type="math_number" id="nxaeuG$:RI?Hi{@T9$hW"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="?V=jD:aHzEq@~ARj~ur}"><field name="NUM">100</field></shadow></value></block></value></block></value></block></next></block></statement></block><block type="spritesoverlap" id="RUf#}{Q`5h8/|t]^0,j`" x="162" y="983"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom" id=")GwpM`XW{u,l61Ps{I$["><mutation typename="Sprite"/><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind" id="NpeW6h$IMCbo]i}|kzdA"><field name="MEMBER">Player</field></shadow></value><value name="HANDLER_DRAG_PARAM_otherSprite"><shadow type="argument_reporter_custom" id="^6:9[2++8vcH)+Re$m5~"><mutation typename="Sprite"/><field name="VALUE">otherSprite</field></shadow></value><value name="otherKind"><shadow type="spritekind" id="8QoNlqet~_]H_X/`%bOZ"><field name="MEMBER">Enemy</field></shadow></value><statement name="HANDLER"><block type="hudChangeLifeBy" id="mXUE)I_KTcuyu!R@T`hU"><value name="value"><shadow type="math_number" id="I@+h)@BLEW~6f*Fl1jNp"><field name="NUM">-1</field></shadow></value><next><block type="camerashake" id="j7:Kf;y){#+XJsNQzg-3"><value name="amplitude"><shadow type="math_number_minmax" id="9oRb]N%w`1ntp7WyQHIr"><mutation min="1" max="8" label="Number" precision="0"/><field name="SLIDER">6</field></shadow></value><value name="duration"><shadow type="timePicker" id="W/T/M[0!=Sf1na,ItV;K"><field name="ms">200</field></shadow></value><next><block type="device_pause" id="ZWU4{,(Ig_p5n;Cpa{+["><value name="pause"><shadow type="timePicker" id="1KwbwFyh}8ZjXdi%F${{"><field name="ms">800</field></shadow></value></block></next></block></next></block></statement></block><block type="spritesoverlap" id="+f!-Lz*/jFhGiz8`$pD3" x="101" y="1194"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom" id="Y}H7Ubz/|g#tfKR]d=tk"><mutation typename="Sprite"/><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind" id="c_v7}KXm,wU3g$x#7Jn|"><field name="MEMBER">Player</field></shadow></value><value name="HANDLER_DRAG_PARAM_otherSprite"><shadow type="argument_reporter_custom" id="N7X?2YnE`BO/0T-Y*XI;"><mutation typename="Sprite"/><field name="VALUE">otherSprite</field></shadow></value><value name="otherKind"><shadow type="spritekind" id="3Acx{=g|H/{iDS-3b7n%"><field name="MEMBER">Projectile</field></shadow></value><statement name="HANDLER"><block type="hudChangeLifeBy" id="6ogWtkAvl7z;!TAte#|G"><value name="value"><shadow type="math_number" id="O:aVd^$~^^#|4ADP874g"><field name="NUM">-1</field></shadow></value><next><block type="camerashake" id="RDZR|db9Z(?Hkj.7K[o_"><value name="amplitude"><shadow type="math_number_minmax" id="wi@8pS:(n0gAi9V0;a4X"><mutation min="1" max="8" label="Number" precision="0"/><field name="SLIDER">6</field></shadow></value><value name="duration"><shadow type="timePicker" id="VgpxwJ+e,pc`ioj`/YOX"><field name="ms">200</field></shadow></value><next><block type="device_pause" id="FW@?E46l^bzhYrEJK9.o"><value name="pause"><shadow type="timePicker" id="}Wc[;rO?jnw2StK7rl`*"><field name="ms">500</field></shadow></value></block></next></block></next></block></statement></block></xml>
